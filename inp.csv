@@ -1,0 +1,11 @@
+Obj Type,Object Name,Object description,Long Description,CMOD FM/ WF Template Name,Description,Process area,Level 1 Process,Module,Sub Process,Theme
+WF,BUS2001,Project definition1,,WS90000001,Project Approval Workflow,R2R,Capital Project Accouting,PS,,
+WF,FIPP,Parked Document2,,WS90000003,Invoice approval workflow,R2R,Vendor Invoicing,AP,,
+WF,BKPF,Accounting document2,,WS90000004,GL Recurring Entry Workflow,R2R,General Accounting,GL,,
+WF,BUS2014,Purchase contract4,,WS90000033,Service Contract,R2R,Vendor Invoicing,MM,,
+WF,BUS2022,Clearing Case,,WS90000035,"FSCM DM send mail, process case",R2R,Collections & Dispute Management,AR,,
+BADI,ZSOAPPROVAL,Sales order approval,,,,R2R,Customer Invoicing & AR (MBIL),SD,Customer invoicing ,Billing
+BADI,ZMIMES_MB_MIGO_BADI,MIGO_BADI - POST_DOCUMENT3,,,,R2R,Fixed Asset & Project Accounting,PS,Capital Project Accounting,Project Creation & Closure
+BADI,ZMIMES_MB_MIGO_BADI2,MIGO_BADI-Post_Document,,,,R2R,Fixed Asset & Project Accounting,PS,Capital Project Accounting,Project Creation & Closure
+BADI,Z_PAYMETRC_ACCTG_DET,XiBuy Accounting Detail Badi Implentation for Norfolk Sother,,,,R2R,General Accounting Consolidation & Reporting,GL,General Accounting,GL Upload/Validation/Subsitution
+BADI,ZAWFES_UDM_CHNG_BFR,Change Dispute Case before Saving,,,,R2R,Customer Invoicing & AR (MBIL),AR,Accounts Receivable & Incoming Payments,AR Invoice
